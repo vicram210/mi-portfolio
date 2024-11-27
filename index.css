@@ -1,439 +1,449 @@
-.bg-black{
-    background-color: black;
+.bg-black {
+  background-color: black;
 }
 
-nav{
-    box-shadow: 0px 0px 30px black;
+nav {
+  box-shadow: 0px 0px 30px black;
 }
 
-.caja1{
-    margin-left: -500px;
-    padding-bottom: 300px;
-    color: white;
-    background-image: url(./imagenes/fondo-portfolio2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.caja1 {
+  margin-left: -500px;
+  padding-bottom: 300px;
+  color: white;
+  background-image: url(./imagenes/fondo-portfolio2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.navbar{
-    background-color: white;
-    border: solid 1px rgb(223, 223, 223);
+.navbar {
+  background-color: white;
+  border: solid 1px rgb(223, 223, 223);
 }
 
-.gap-10{
-    gap: 30px;
+.gap-10 {
+  gap: 30px;
 }
 
-.margin{
-    margin-left: 20%;
+.margin {
+  margin-left: 20%;
 }
 
 @media screen and (min-width: 768px) {
-
-
-    ul{
-        margin-left: 30%;
-    }
-    
+  ul {
+    margin-left: 30%;
+  }
 }
 
-.portfolio-title{
-    display: flex;
-    text-align: center; 
-    align-items: center;
-    flex-direction: column;
-    padding-top: 300px;
-    margin-left: 500px;
-    font-size: 100px;
+.portfolio-title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 300px;
+  margin-left: 500px;
+  font-size: 100px;
 }
 
-.maquina{
-    display: block;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 1210px;
-    animation: typing 2s steps(20),
-    blink .5s infinite step-end alternate;
-    overflow: hidden;
-    
+.maquina {
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 1210px;
+  animation: typing 2s steps(20), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
 }
 
-.maquina2{
-    display: block;
-    visibility: hidden;
-    white-space: nowrap;
-    width: 925px;
-    animation: show 0s forwards 5s, typing 2s steps(30) 
-    5s forwards, blink .5s infinite step-end alternate 5s;
-    overflow: hidden;
-    animation-delay: 5s;
-
+.maquina2 {
+  display: block;
+  visibility: hidden;
+  white-space: nowrap;
+  width: 925px;
+  animation: show 0s forwards 5s, typing 2s steps(30) 5s forwards,
+    blink 0.5s infinite step-end alternate 5s;
+  overflow: hidden;
+  animation-delay: 5s;
 }
 
 @keyframes show {
-    to {
-        visibility: visible;
-    }
+  to {
+    visibility: visible;
+  }
 }
 
-@keyframes typing{
-    from{
-        width: 0
-    }
+@keyframes typing {
+  from {
+    width: 0;
+  }
 }
 
-@keyframes blink{
-    50%{
-        border-color: transparent;
-    }
-
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
-.portfolio-desc{
-    font-size: 20px;
+.portfolio-desc {
+  font-size: 20px;
 }
 
 .itim-regular {
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
-.itim-regular-thin{
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-  
-hr{
-    margin-left: -16px;
-    margin-right: -16px;
-    padding-bottom: 100px;
+.itim-regular-thin {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-.sobre-mi{
-    padding-top: 80px;
-    margin-left: 200px;
-    margin-right: 200px;
-    text-align: center;
-    font-size: 50px;
+hr {
+  margin-left: -16px;
+  margin-right: -16px;
+  padding-bottom: 100px;
 }
 
-.imagen{
-    margin-right: 250px;
+.sobre-mi {
+  padding-top: 80px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-size: 50px;
 }
 
-.sobre-mi-desc{
-    margin-left: 250px;
-    margin-top: 150px;
-    margin-right: 900px;
-    font-size: 20px;
-    margin-bottom: 400px;
+.imagen {
+  margin-right: 250px;
 }
 
-.img-shadow{
-    box-shadow: 1px 1px 30px black;
+.sobre-mi-desc {
+  margin-left: 250px;
+  margin-top: 150px;
+  margin-right: 900px;
+  font-size: 20px;
+  margin-bottom: 400px;
 }
 
-.galeria{
-    padding-top: 80px;
-    margin-left: 200px;
-    margin-right: 200px;
-    text-align: center;
-    font-size: 50px;
+.img-shadow {
+  box-shadow: 1px 1px 30px black;
 }
 
-.carrusel{
-    margin-left: 250px;
-    margin-right: 250px;
-    box-shadow: 1px 1px 30px black;
+.galeria {
+  padding-top: 80px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-size: 50px;
 }
 
-.galeria-desc{
-    margin-bottom: 250px;
+.carrusel {
+  margin-left: 250px;
+  margin-right: 250px;
+  box-shadow: 1px 1px 30px black;
 }
 
-.see-all{
-    align-items: center;
-}
-.btn-edit{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-weight: bold;
+.galeria-desc {
+  margin-bottom: 250px;
 }
 
-.hablamos{
-    padding-bottom: 20px;
-    margin-top: 100px;
+.see-all {
+  align-items: center;
+}
+.btn-edit {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
 }
 
-.bold{
-    border-width: 5px;
-    border-radius: 0px;
-    font-weight: bold;
-    font-size: 30px;
+.hablamos {
+  padding-bottom: 20px;
+  margin-top: 100px;
 }
 
-.center{
-    text-align: center;
+.bold {
+  border-width: 5px;
+  border-radius: 0px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.btn-hablamos{
-    animation: movimiento-hablamos 10s infinite forwards;
+.center {
+  text-align: center;
+}
+
+.btn-hablamos {
+  animation: movimiento-hablamos 10s infinite forwards;
 }
 
 @keyframes show2 {
-    from {
-        opacity: 0;
-        scale: 25%;
-    }
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
 
-    to {
-        opacity: 1;
-        scale: 100%;
-    }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
 }
 
 .bloque-servicio-individual {
-    view-timeline-name: --image;
-    view-timeline-axis: block;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
 
-    animation-timeline: --image;
-    animation-name: show2;
+  animation-timeline: --image;
+  animation-name: show2;
 
-    animation-range: entry 20% cover 30%;
-    animation-fill-mode: both;
+  animation-range: entry 20% cover 30%;
+  animation-fill-mode: both;
 
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
-
 .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
 }
 
 .skill-group {
-    flex: 300px;
-    margin: 10px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 30px black;
-    padding: 15px; 
-    border-radius: 8px;
+  flex: 300px;
+  margin: 10px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 30px black;
+  padding: 15px;
+  border-radius: 8px;
 }
 
 .skill-list {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.ab{
-    margin-top: 10px;
-    padding-bottom: 55px;
-    color: white;
+.ab {
+  margin-top: 10px;
+  padding-bottom: 55px;
+  color: white;
 }
 
-.center-ab{
-    justify-content: center;
-    gap: 300px;
-
+.center-ab {
+  justify-content: center;
+  gap: 300px;
 }
 
-.gap-edit{
-    gap: 250px;
+.gap-edit {
+  gap: 250px;
 }
 
-.abs-title{
-    padding-top: 30px;
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 10px;
+.abs-title {
+  padding-top: 30px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.abs-desc{
-    margin-left: -70px;
-    font-size: 20px;
-    text-align: center;
-    margin: 5px;
-    
+.abs-desc {
+  margin-left: -70px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
 }
 
-.bg-abs{
-    background-image: url(imagenes/fondo-backend.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-
+.bg-abs {
+  background-image: url(imagenes/fondo-backend.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
-.bg-abs2{
-    background-image: url(https://www.meatcode.cl/content/uploads/2023/08/image-37.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-
+.bg-abs2 {
+  background-image: url(https://www.meatcode.cl/content/uploads/2023/08/image-37.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
-.mb-ab{
-    margin-bottom: 150px;
+.mb-ab {
+  margin-bottom: 150px;
 }
 
 @keyframes movimiento-hablamos {
+  20% {
+    transform: translateX(-0.5rem);
+  }
 
-    20%{
-        transform: translateX(-0.5rem);
-    }
-
-    50%{
-        transform: translateX(0.5rem);
-    }
+  50% {
+    transform: translateX(0.5rem);
+  }
 }
 
-.gap-footer{
-    margin-top: -50px;
-    gap: 500px;
-    text-align: center;
-    justify-content: center;
-    flex-direction: row;
-    margin-bottom: 50px;
+.gap-footer {
+  margin-top: -50px;
+  gap: 500px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 50px;
 }
 
-.mail{
-    text-decoration: none;
-    color: black;
+.mail {
+  text-decoration: none;
+  color: black;
 }
 
-.mail:hover{
-    color: grey;
+.mail:hover {
+  color: grey;
 }
 
-.space{
-    margin-right: 10px;
-    margin-left: 10px;
+.space {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-.info-footer{
-    padding-top: 50px;
+.info-footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-footer{
-    background-color: rgb(236, 236, 236);
+.botones {
+  text-decoration: none;
+  color: black;
+}
+
+.botones:hover {
+  color: grey;
+}
+
+footer {
+  background-color: rgb(236, 236, 236);
 }
 
 @media screen and (max-width: 768px) {
+  hr {
+    margin-bottom: -100px;
+  }
 
-    hr{
-        margin-bottom: -100px;
-    }
+  .portfolio-title {
+    font-size: 40px;
+    margin-left: 0;
+    padding-top: 100px;
+    text-align: center;
+  }
 
-    .portfolio-title {
-        font-size: 40px;
-        margin-left: 0;
-        padding-top: 100px;
-        text-align: center;
-    }
+  .sobre-mi {
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+  }
 
-    .sobre-mi {
-        font-size: 30px;
-        margin: 20px;
-        text-align: center;
-    }
+  .sobre-mi-desc {
+    margin: 20px;
+    font-size: 16px;
+    text-align: justify;
+  }
 
-    .sobre-mi-desc {
-        margin: 20px;
-        font-size: 16px;
-        text-align: justify;
-    }
+  .caja1 {
+    margin-left: 0;
+    padding-bottom: 50px;
+  }
 
-    .caja1 {
-        margin-left: 0;
-        padding-bottom: 50px;
-    }
+  .btn-edit {
+    padding: 10px;
+    font-size: 16px;
+  }
 
-    .btn-edit {
-        padding: 10px; 
-        font-size: 16px; 
-    }
+  .gap-footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
 
-    .gap-footer {
-        flex-direction: column; 
-        gap: 20px;
-        text-align: center;
-    }
+  .img-shadow {
+    width: 100%;
+    height: auto;
+  }
 
-    .img-shadow {
-        width: 100%;
-        height: auto;
-    }
+  .maquina,
+  .maquina2 {
+    width: 100%;
+    font-size: 20px;
+  }
 
-    .maquina, .maquina2 {
-        width: 100%; 
-        font-size: 20px;
-    }
+  .galeria {
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+  }
 
-    .galeria {
-        font-size: 30px;
-        margin: 20px;
-        text-align: center;    }
+  .carrusel {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-    .carrusel {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
 
-    img {
-        max-width: 100%;
-        max-height: 100%;
-    }
+  .skills-container {
+    flex-direction: column;
+  }
 
-    .skills-container {
-        flex-direction: column;
-    }
+  .imagen {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
 
-    .imagen{
-        margin-right: 0px;
-        margin-bottom: 30px;
-    }
+  .sobre-mi-desc {
+    margin-bottom: 100px;
+  }
 
-    .sobre-mi-desc{
-        margin-bottom: 100px;
-    }
-
-    .gap-footer{
-        margin-top: 50px;
-        gap: 40px;
-    }
+  .gap-footer {
+    margin-top: 50px;
+    gap: 40px;
+  }
 }
 
-
 body::-webkit-scrollbar {
-    width: 15px;
-    box-shadow: 1px 1px 30px black;
-
+  width: 15px;
+  box-shadow: 1px 1px 30px black;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: rgb(41, 41, 41);
-    border-radius: 10px;
-    border: 2px solid white;
-    
+  background-color: rgb(41, 41, 41);
+  border-radius: 10px;
+  border: 2px solid white;
 }
-
 
 body::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(56, 56, 56);
-    border-radius: 10px;
-    border: 2px solid white
-    
+  background-color: rgb(56, 56, 56);
+  border-radius: 10px;
+  border: 2px solid white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
