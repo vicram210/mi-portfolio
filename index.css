@@ -200,8 +200,10 @@ hr {
 
   animation-range: entry 20% cover 30%;
   animation-fill-mode: both;
+}
 
-  margin-bottom: 100px;
+.contacto{
+    margin-bottom: 100px;
 }
 
 .skills-container {
