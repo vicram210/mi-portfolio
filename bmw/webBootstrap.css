@@ -1,0 +1,276 @@
+.root{
+    margin-left: 96px;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.caja1{
+    margin-left: -100px;
+    padding-left: 100px;
+    color: white;
+    background-image: url(bmw.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#separacion{
+    margin-left: 20px;
+}
+
+nav{
+    border-bottom: solid white;
+    margin-right: 96px;
+}
+
+.sub-caja1{
+    padding-top: 250px;
+    padding-bottom: 150px;
+}
+
+.grande{
+    font-size: 300px;
+    margin-top: -120px;
+    margin-bottom: -90px;
+}
+
+.thenew{
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+.poco-grande{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.opaco{
+    background-color: rgb(255 255 255 0);
+    border: solid 2px white;
+    color: white;
+    border-radius: 3px;
+}
+
+.opaco:hover{
+    border: solid 3px white;
+}
+
+.btn-primary{
+    font-weight: bold;
+}
+
+.encuentra{
+    font-size: 45px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-img{
+    width: 64px;
+}
+
+.separar{
+    padding-bottom: 30px;
+}
+
+.opaco2{
+    background-color: rgb(255 255 255 0);
+    border: solid 1px black;
+    border-radius: 3px;
+    color: black;
+}
+
+.opaco2:hover{
+    border: solid 2px black;
+}
+
+.caja2{
+    margin-top: 55px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    color: white;
+    background-image: url(bmw3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grande2{
+    padding-top: 30px;
+    font-size: 70px;
+}
+
+.poquito-grande{
+    font-size: 20px;
+}
+
+.money{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-left: 2px;
+}
+
+.quote{
+    margin-top: -20px;
+    color: #ababab;
+    font-size: 14px;
+}
+
+.sub-caja2{
+    margin-top: 80px;
+}
+
+.adjust{
+    margin-top: -50px;
+}
+
+.btn-primary{
+    border-radius: 3px;
+}
+
+.tae{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-size: 14px;
+    color: #666666;
+}
+
+.grey{
+    color: #666666;
+    font-weight: bold;
+}
+
+.grey-underline{
+    text-decoration: underline;
+}
+
+.caja3{
+    margin-top: 55px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    color: white;
+    background-image: url(bmw4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grande3{
+    padding-top: 400px;
+    font-size: 50px;
+}
+
+.caja4{
+    margin-top: 55px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    color: white;
+    background-image: url(bmw5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.more-info{
+    color: #666666;
+    font-weight: bold;
+}
+
+.grande4{
+    font-size: 30px;
+    margin-right: 300px;
+}
+
+.col1{
+    margin-left: 50px;
+}
+
+.grande5{
+    font-size: 20px;
+    
+}
+
+.caja5{
+    padding-left: 80px;
+    margin-right: 230px;
+}
+
+.link{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #1c69d5;
+}
+
+footer{
+    margin-top: 100px;
+    padding-left: 80px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.footer-grande{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.models{
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.container2{
+    padding-top: 30px;
+    margin-left: 80px;
+    padding-bottom: 50px;
+}
+
+.footer-small{
+    font-size: 13px;
+}
+
+.footer-info{
+    font-weight: bold;
+    color: #4e504e;
+}
+
+.bg-clarito{
+    background-color: #f6f6f6;   
+}
+
+.text-right{
+    text-align: right;
+    margin: 30px;
+    font-size: 14px;
+}
+
+.info{
+    margin-left: 40px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info:hover{
+    color: #1c69d5;
+}
+
+.copy{
+    font-size: 20px;
+    text-align: left;
+}

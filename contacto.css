@@ -1,0 +1,201 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.bg-black{
+    background-color: black;
+}
+
+.active{
+    color: white;
+}
+
+nav{
+    box-shadow: 0px 0px 30px black;
+}
+
+.navbar{
+    background-color: white;
+    border: solid 1px rgb(223, 223, 223);
+
+}
+
+.gap-10{
+    gap: 30px;
+}
+
+.margin{
+    margin-left: 20%;
+}
+
+@media screen and (min-width: 990px) {
+
+
+    ul{
+        margin-left: 30%;
+    }
+    
+}
+
+.container{
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;
+    margin-top: 100px;
+}
+
+.redes{
+    margin-top: 50px;
+}
+
+.space{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mail{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contacta{
+    padding-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 50px;
+}
+
+form{
+    padding: 100px;
+}
+
+.info-contact{
+    margin-left: 100px;
+
+}
+
+.itim-regular {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.itim-thin {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+textarea{
+    max-height: 150px;
+}
+
+footer{
+    margin-top: 137px;
+    position: relative;
+}
+
+.wave1{
+    height:40px;
+    position: absolute;
+    width: 100%;z-index: 12;
+    left: 0;
+    bottom: 0;
+    opacity: 50%;
+}
+
+.wave11{
+    height:50px;
+    position: absolute;
+    width: 100%;z-index: 12;
+    left: 0;
+    bottom: 0;
+    opacity: 30%;
+}
+
+.wave2{
+    height: 30px;
+    position: absolute;
+    width: 100%;z-index: 12;
+    left: 0;
+    bottom: 0;
+}
+
+.wave2 {
+    animation: wave-animation1 10.3s infinite linear; /* Safari 4+ */
+  
+  }
+  
+
+.wave1 {
+  animation: wave-animation1 9s infinite linear; /* Safari 4+ */
+
+}
+
+.wave11 {
+    animation: wave-animation1 7s infinite linear; /* Safari 4+ */
+  
+  }
+
+@-webkit-keyframes wave-animation1 {
+  0%   { background-position: 0 0; }
+  100% { background-position: 1601px 0; }
+}
+@-moz-keyframes wave-animation1 {
+  0%   { background-position: 0 0; }
+  100% { background-position: 1601px 0; }
+}
+@-o-keyframes wave-animation1 {
+  0%   { background-position: 0 0; }
+  100% { background-position: 1601px 0; }
+}
+@keyframes wave-animation1 {
+  0%   { background-position: 0 0; }
+  100% {background-position: 1601px 0;}
+}
+
+.wave1 {
+    background: url(imagenes/wave2.png) 0 0 repeat-x;
+}
+.wave11 {
+    background: url(imagenes/wave2.png) 0 0 repeat-x;
+}
+.wave2 {
+    background: url(imagenes/wave2.png) 0 0 repeat-x;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .contacta {
+        font-size: 30px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .info-contact {
+        margin-left: -1%;
+        margin-top: 30px;
+        margin-bottom: -20%;
+    }
+
+    .container{
+        margin-top: 50px;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin-top: 20px; 
+        margin-bottom: 30px;
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+}

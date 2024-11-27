@@ -1,0 +1,101 @@
+@media (min-width: 640px){
+    .ml-30 {
+        margin-left: 30%;
+    }
+}
+
+.text-gray-118{
+    color: rgb(118, 118, 118);
+}
+
+.caja1{
+    height: 800px;
+    background-image: url(mercedes-gif.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tipo-letra{
+    font-family: MBCorpo;
+}
+
+.destaca{
+    border: solid 2px red;
+}
+
+.border-grey-per{
+    border: solid 2px #bbbbbb;
+}
+
+
+.class-A{
+    /* background: linear-gradient(to top, black, 90%, transparent); */
+    box-shadow: 0px -45px 60px 30px #000000;
+    position: relative;
+   background-color: black;
+    color: white;
+    padding: 88px 32px 10px;
+}
+
+.colocation{
+    margin-top: -100px;
+}
+
+.img-small{
+    width: 520px;
+
+}
+
+.electric{
+    box-shadow: 0px -45px 60px 30px #000000;
+    position: relative;
+    background-color: black;
+    color: white;
+    margin-top: -130px;
+    padding: 88px 32px 45px;
+
+}
+
+.colocation2{
+    margin-top: -160px;
+}
+
+.w-per{
+    width: 520px;
+}
+
+.text-per{
+    font-size: 29px;
+    line-height: 40px;
+}
+
+.electric2{
+    box-shadow: 0px -45px 60px 30px #000000;
+    position: relative;
+    background-color: black;
+    color: white;
+    margin-top: -130px;
+    padding: 88px 32px 20px;
+}
+
+.electric3{
+    box-shadow: 0px -45px 60px 30px #000000;
+    position: relative;
+    background-color: black;
+    color: white;
+    margin-top: -110px;
+    padding: 88px 32px 20px;
+}
+
+.berlina{
+    display: block;
+    width: 62%;
+    position: absolute;
+
+    background-color: rgb(180, 180, 180);
+}
+
+.transform:hover{
+    transform: rotateY(180deg);
+}

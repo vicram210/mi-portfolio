@@ -1,0 +1,95 @@
+.bg-black{
+    background-color: black;
+}
+
+.active{
+    color: white;
+}
+
+.caja1{
+    margin-left: -500px;
+    padding-bottom: 100px;
+    color: white;
+    background-image: url(fondo-portfolio2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    box-shadow: 0px 0px 30px black;
+}
+
+.navbar{
+    background-color: white;
+    border: solid 1px rgb(223, 223, 223);
+
+}
+
+.gap-10{
+    gap: 30px;
+}
+
+.margin{
+    margin-left: 20%;
+}
+
+.navbar-nav{
+    margin-left: 30%;
+}
+
+.card-title{
+    font-size: 50px;
+}
+
+.itim-regular {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.itim-regular-thin{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.progress{
+    margin-top: 30px;
+}
+
+.font-edit{
+    font-size: 20px;
+}
+
+.btn2:hover{
+    font-weight: bold;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.btn3:hover{
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.separador{
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+
+
+    ul{
+        margin-left: 30%;
+    }
+
+    .edit{
+        margin-left: 500px;
+        margin-right: 500px;
+    }
+    
+}
+
+

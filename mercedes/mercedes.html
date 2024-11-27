@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="mercedes.css">
+</head>
+<body>
+
+    <nav class="bg-black">
+        <div class="px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+
+                <!--
+                  Icon when menu is open.
+      
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex space-x-4">
+                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-118 hover:text-white">Modelos</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-118 hover:text-white">Comprar</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-118 hover:text-white">Servicios</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-118 hover:text-white">Marca</a>
+                </div>
+              </div>
+              <div class="flex flex-shrink-0 items-center justify-center ml-30">
+                <img class="h-8 w-auto" src="logo.svg" alt="Mercedes">
+              </div>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                <a href="#" class="px-3 py-2 text-sm font-medium text-gray-118 hover:text-white">Proveedor/...</a>
+              <button type="button" class="relative rounded-full bg-black p-1 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black">
+                <img class="h-5 w-5 " src="icon-lupa.png" alt="">
+              </button>
+              <button type="button" class="ml-3 relative rounded-full g-black p-1 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black">
+                <img class="h-5 w-5" src="icon-estrella.png" alt="">
+              </button>
+      
+              <!-- Profile dropdown -->
+              <div class="relative ml-3">
+                <div class="flex">
+                  <button type="button" class="relative rounded-full g-black p-1 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                    <img class="h-8 w-8 rounded-full" src="icon-persona.png" alt="">
+                  </button>
+                  <a href="#" class="px-3 py-2 text-sm font-medium text-gray-118 hover:text-white">Iniciar sesi...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pb-3 pt-2">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Modelos</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Comprar</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Servicios</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Marca</a>
+          </div>
+        </div>
+    </nav>
+
+    <div class="caja1">
+      <div class="pl-36 pt-72">
+        <h1 class="text-6xl text-white tipo-letra">El poder de elegir.</h1>
+        <p class="text-lg text-white">Eléctrico. Híbrido Enchufable. Combustión.</p>
+
+        <button class="rounded-sm bg-blue-600 px-7 py-3 font-bold text-white mt-10">
+          Descúbrelo
+        </button>
+      </div>
+      
+    </div> 
+    <div class="sticky top-14">
+      <div class="flex items-center justify-center relative bottom-9">
+        <a class="bg-black text-white text-center border-grey-per py-5 font-bold px-10">Mercedes-Benz</a>
+        <a class="bg-white text-center border-grey-per py-5 font-bold px-10">AMG</a>
+        <a class="bg-white text-center border-grey-per py-5 font-bold px-10">MAYBACH</a>
+      </div>
+    </div>
+    
+    <div class="pl-36">
+      <h1 class="text-5xl tipo-letra pb-10">Nuestras recomendaciones.</h1>
+      <div class="flex gap-10">
+        <div>
+          <img src="mercedes-claseA.avif" alt="">
+          <div class="class-A">
+            <div class="colocation">
+              <p>Clase A con Mercedes-Benz Renting.</p>
+              <h1 class="text-3xl tipo-letra">Clase A.</h1>
+              <h1 class="text-3xl tipo-letra">Ahora por 240 €/mes⁽ᵃ⁾</h1>
+  
+              <div class="flex gap-10 pb-20">
+                <button class="rounded-sm bg-blue-600 px-7 py-3 font-bold text-white mt-20">
+                  Ver oferta
+                </button>
+  
+                <button class="rounded-sm px-7 py-3 font-bold text-white mt-20 underline">
+                  Más información
+                </button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div>
+          <img src="mercedes-electrico.avif" alt="" class="img-small">
+          <div class="electric">
+            <div class="colocation2">
+              <p>Encuentra el más adecuado para ti.</p>
+              <h1 class="text-3xl tipo-letra">Híbridos Enchufables.</h1>
+  
+              <button class="rounded-sm bg-blue-600 px-7 py-3 font-bold text-white mt-10">
+                Ver ofertas
+              </button>
+            </div>
+            
+          </div>          
+        </div>
+      </div>
+      
+      <div class="flex gap-10 mt-10">
+        <div>
+          <img src="mercedes-gama-electrica.avif" alt="" class="img-small">
+          <div class="electric2 w-per">
+            <div class="colocation2">
+              <p>Pásate a la movilidad eléctrica.</p>
+              <h1 class="text-per tipo-letra">Descubre nuestra gama 100% eléctrica e híbrida enchufable.</h1>
+  
+              <div class="flex gap-10 pb-10 ">
+                <button class="rounded-sm bg-blue-600 px-7 py-3 font-bold text-white mt-5">
+                  100% eléctricos
+                </button>
+  
+                <button class="rounded-sm px-7 py-3 font-bold text-white mt-5 underline">
+                  Híbridos Enchufables
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="mercedes-benz.avif" alt="" class="img-small">
+          <div class="electric3 w-per">
+            <div class="colocation2">
+              <h1 class="text-per tipo-letra">Encuentra ahora tu Mercedes-Benz de ocasión certificado.</h1>
+              
+              <div class="pb-10">
+                <button class="rounded-sm bg-blue-600 px-7 py-3 font-bold text-white mt-5">
+                  Más información
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="mercedes-claseG.avif" alt="" class="img-small">
+          <div class="electric2 w-per">
+            <div class="colocation2">
+              <p>Descúbrelos.</p>
+              <h1 class="text-per tipo-letra">Nuevo Clase G.</h1>
+  
+              <div class="flex gap-10 pb-10 pt-9">
+                <button class="rounded-sm bg-blue-600 px-9 py-3 font-bold text-white mt-5">
+                  Clase G
+                </button>
+  
+                <button class="rounded-sm px-7 py-3 font-bold text-white mt-5 underline">
+                  Clase G eléctrico
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="text-5xl tipo-letra pb-10 pt-20">La combinación perfecta de lujo, deportividad y potencia: <br>Descubre nuestros modelos más recientes</h1>
+      
+      <div class="flex gap-10 pb-10">
+        <button class="rounded-sm divide-solid border-x border-y border-grey-per px-9 py-3 font-bold mt-3">
+          Descubre todos los modelos
+        </button>
+
+        <button class="rounded-sm divide-solid border-x border-y border-grey-per px-9 py-3 font-bold mt-3 ">
+          Descubre los modelos eléctricos
+        </button>
+      </div>
+      
+      <div class="grid grid-rows-3 grid-flow-col gap-4">
+        <div class="berlina">
+          <img src="mercedes-berlina1.avif" alt="" class="transform">
+          <p>Descúbrelo</p>
+          <h1 class="text-4xl tipo-letra">Berlina</h1>
+        </div>
+
+        <div class="berlina">
+          <img src="mercedes-compacto1.webp" alt="" class="transform">
+          <p>Descúbrelo</p>
+          <h1 class="text-4xl tipo-letra">Compacto</h1>
+        </div>
+
+        <div class="berlina">
+          <img src="mercedes-monovolumen1.webp" alt="" class="transform">
+          <p>Descúbrelo</p>
+          <h1 class="text-4xl tipo-letra">Monovolumen</h1>
+        </div>
+
+        <div class="berlina">
+          <img src="mercedes-suv1.webp" alt="" class="transform">
+          <p>Descúbrelo</p>
+          <h1 class="text-4xl tipo-letra">SUV & Todoterreno</h1>
+        </div>
+
+        <div class="berlina">
+          <img src="mercedes-coupe1.webp" alt="" class="transform">
+          <p>Descúbrelo</p>
+          <h1 class="text-4xl tipo-letra">Coupé</h1>
+        </div>
+
+        <div></div>
+
+        <div class="berlina">
+          <img src="mercedes-estate1.avif" alt="" class="transform">
+          <p>Descúbrelo</p>
+          <h1 class="text-4xl tipo-letra">Estate</h1>
+        </div>
+
+        <div class="berlina">
+          <img src="mercedes-cabrio1.webp" alt="" class="transform">
+          <p>Descúbrelo</p>
+          <h1 class="text-4xl tipo-letra">Cabrio</h1>
+        </div>
+
+
+
+      </div>
+      
+
+    </div>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
